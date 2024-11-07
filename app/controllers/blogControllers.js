@@ -1,5 +1,5 @@
 // Create Route
-export const creatBlog = (req, res)=>{
+export const createBlog = (req, res)=>{
     res.send("Blog Created Successfully")
 }
 

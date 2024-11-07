@@ -3,7 +3,7 @@ import * as controller from "../app/controllers/blogControllers.js"
 
 const router = express.Router();
 
-router.post("/create-blog", controller.creatBlog)
+router.post("/create-blog", controller.createBlog)
 
 router.get("/read-blog", controller.readBlog)
 
